@@ -29,8 +29,8 @@ const Section2 = () => {
 
               </div>
               <p className="text-gray-600 mt-4">
-              Blink brings a new approach to online dating by offering set daily time frames when users can connect, creating an exciting, shared experience. Users can log in during specific times each day—three one-hour windows—to begin browsing and video-chatting with potential matches. This time-based feature not only adds anticipation.
-                            </p>
+                A live matchmaking event where users match in real-time and enter video calls within a set time window. Meet people instantly, match, and start chatting!
+              </p>
             </div>
           </div>
         </div>

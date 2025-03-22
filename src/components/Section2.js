@@ -38,7 +38,7 @@ const Section2 = () => {
             <div>
               <h3 className="font-semibold text-lg text-black">Spontaneous Video Chats, Anytime</h3>
               <p className="text-gray-600">
-                Connect face-to-face through short, timed video chats that encourage authentic conversations without the pressure. Each session keeps things lively, engaging, and real.
+                Combines speed video chats and 24/7 matchmaking. Join Blink Chat Hour for rapid 20s video calls with "Wink," "Link," or "X" choices, or swipe anytime to match and schedule live video chats based on mutual availability.
               </p>
             </div>
           </div>
@@ -47,7 +47,7 @@ const Section2 = () => {
           <div className="flex items-start space-x-4">
             <CheckCircle className="text-blue-500 w-12 h-12" />
             <div>
-              <h3 className="font-semibold text-lg text-black">Decide in a Blink: Wink, Link, or Blink</h3>
+              <h3 className="font-semibold text-lg text-black">Decide in a Blink: Wink, Link, or X</h3>
               <p className="text-gray-600">
                 End each interaction with a quick choice: ‘Wink’ for strong interest, ‘Link’ for a standard match, or ‘Blink’ to pass. Keep it simple, keep it spontaneous.
               </p>

@@ -49,7 +49,9 @@ const Navbar = () => {
 
       {/* Call to Action */}
       <div className="hidden md:block">
-        <button className="px-8 py-4 text-white bg-black rounded-md hover:bg-[#387FF7]">Download</button>
+        <button className="px-8 py-4 text-white bg-black rounded-md hover:bg-[#387FF7]">Download iOS</button>
+        <button className="px-8 py-4 text-white bg-black rounded-md hover:bg-[#387FF7] ml-4">Download Android</button>
+
       </div>
 
       {/* Mobile Menu Toggle */}
@@ -61,13 +63,14 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="absolute top-16 left-0 w-full bg-white shadow-md md:hidden" style={{zIndex: 2}}>
+        <div className="absolute z-4 top-16 left-0 w-full bg-white shadow-md md:hidden" style={{zIndex: 2}}>
           <div className="flex flex-col items-center space-y-4 py-4">
             <a href="#" className="text-black font-medium hover:text-blue-600">Home</a>
             <a href="#" className="text-black font-medium hover:text-blue-600">About Us</a>
             <a href="#" className="text-black font-medium hover:text-blue-600">Pricing</a>
             <a href="#" className="text-black font-medium hover:text-blue-600">Features</a>
-            <button className="px-6 py-3 text-white bg-black rounded-lg hover:bg-gray-800">Download</button>
+            <button className="px-6 py-3 text-white bg-black rounded-lg hover:bg-gray-800">Download iOS</button>
+            <button className="px-6 py-3 text-white bg-black rounded-lg hover:bg-gray-800">Download Android</button>
           </div>
         </div>
       )}
